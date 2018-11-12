@@ -1,0 +1,405 @@
+/*=============================
+			LESSON №1
+  =============================*/
+body{
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background: #f6f6f6;
+	padding: 5px 0;/*задается только вверхний и нижний отступы, а правый и левый равны нулю*/
+}
+.header-container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header-container a{
+	color: black;
+	font-size: 16px;
+	margin-right: 63px;
+	padding: 27px 6px;
+}
+.header-container a:hover{
+	background: #FBEE23;
+}
+#menu-checkbox{
+	display: none;
+}
+ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+nav{
+	margin-top: 27px;
+}
+/*=============================
+			LESSON №3
+  =============================*/
+.top-slide{
+	padding-top: 120px;
+	padding-bottom: 280px;
+	background: url(img/table.jpg) no-repeat;
+	background-size: cover;
+}
+.top-container{
+	width: 85%;
+	margin: 0 auto;
+}
+.top-slide h2{
+	background: yellow;
+	display: inline;
+	font-size: 70px;
+	padding: 0 13px;
+}
+.top-slide:nth-child(2){
+	margin-bottom: 10px;
+}
+.top-slide p{
+	background: #414146;
+	display: inline;
+	font-size: 24px;
+	color: white;
+}
+.specialize-container{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+}
+.specialize-container h3{
+	font-size: 35px;
+}
+.specialize-container p{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+#first_p{
+	font-size: 20px;
+	color: white;
+}
+.bottom-card{
+	background: #414146;
+	position: relative;
+	top: -30px;
+}
+.specialize-cards{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+/*=============================
+			LESSON №4
+  =============================*/
+.portfolio{
+	width: 90%;
+	text-align: center;
+	margin: 0 auto; 
+}.portfolio h4{
+	background: #424147;
+	padding: 0 8px;
+	display: inline-block;
+	color: #f5e10a;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.portfolio p{
+	color: #424146;
+	font-size: 16px;
+}
+.toggles button{
+	background-color: white;
+	border: none;
+	color: #424146;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 20px 5px;
+}
+.toggles button:after{
+	content: ' / ';
+}
+.toggles button:last-child:after{
+	content: '';
+}
+.posts{
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.brend-slider{
+	width: 90%;
+	text-align: center;
+	margin: 0 auto; 
+	margin-bottom: 100px;
+}
+.brend-slider h4{
+	background: #424147;
+	padding: 0 8px;
+	display: inline-block;
+	color: #f5e10a;
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.brend-slider p{
+	color: #424146;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+footer{
+	background: #414146;
+	padding: 30px 0 0;
+	color: white;
+}
+footer h4{
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+.footer_container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.footer_container .about_us a{
+	display: inline-block;
+	background: black;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #ffea00;
+}
+.about_us{
+	width: 32%;
+}
+.images{
+	width: 88%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+}
+.images img{
+	margin-bottom: 5px;
+}
+
+.tweets{
+	width: 33%;
+}
+.tweets h4{
+	margin-bottom: 30px;
+}
+.tweets p{
+	margin-top: -8px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+.general{
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+}
+span{
+	color: yellow;
+}
+.time{
+	font-size: 12px;
+}
+.massage{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 26px;
+}
+.massage p{
+	margin-top: 1px;
+}
+.massage h4{
+	margin-top: 1px;
+}
+.contacts{
+	width: 25%;
+}
+.contacts h4{
+	margin-bottom: 30px;
+}
+#title{
+	margin-bottom: 50px;
+}
+.call{
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 25px;
+}
+.call:nth-child(4){
+	margin-bottom: 0px;
+}
+.phone{
+	margin-right: 20px;
+}
+#num{
+	margin-right: 5px;
+}
+.call p{
+	margin-top: 5px;
+}
+.text h4{
+	margin-top: 32px; 
+}
+#line{
+	margin-top: -10px;
+	font-size: 14px;
+}
+
+.common{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row-reverse;
+	margin-top: 10px;
+}
+.letter{
+	margin-left: 6px;
+}
+.input input{
+	font-size: 20px;
+	width: 100%;
+	margin-top: 10px;
+	border: none;
+	border-bottom: 3px solid #FBEE23;
+	background-color: #414146;
+	color: white;
+}
+input:hover,
+input:active,
+input:focus{
+	outline: none;
+}
+.footer_menu{
+	background: black;
+	height: 65px;
+}
+.items-menu{
+	width: 100%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+}
+.items-menu a{
+	color: white;
+	font-size: 20px;
+	padding: 15px 10px 0px;
+	text-align: center;
+}
+.items-menu a:hover{
+	border-bottom: 2px solid white;
+}
+.footer-items{
+	width: 43.5%;
+	display: flex;
+	justify-content: space-between;
+}
+/*=============================
+			LESSON №2
+  =============================*/
+
+@media screen and (max-width: 420px){
+	.header-container{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	.main-menu{
+		display: none;
+	}
+	.main-menu li{
+		width: 100%;
+		display: block;
+		font-size: 12px;
+		}
+	.main-menu a{
+		display: block;
+		padding: 8px;
+	}
+	.toggle-button{
+		text-align: center;
+		display: block;
+		cursor: pointer;
+		color: #000;
+		margin-right: 35px;
+		font-size: 35px;
+	}
+	.toggle-button:after{
+		content: attr(data-open);
+		display: block;
+	}
+	#menu-checkbox:checked + nav[role="navigation"] .main-menu{
+		display: block;
+	}
+	#menu-checkbox:checked + nav[role="navigation"] .toggle-button:after{
+		content: attr(data-close);
+	}
+	.header-container a{
+		margin-right: -65px;
+	}
+	.main-menu{
+		position: relative;
+		top: 5px;
+		right: 50px;
+	}
+	.top-slide{
+		padding-top: 40px;
+		padding-bottom: 95px;
+		background-size: cover;
+	}
+	.top-slide h2{
+		background: yellow;
+		display: inline;
+		font-size: 30px;
+		padding: 0 5px;
+	}
+	.top-slide p{
+	    background: #414146;
+	    display: inline;
+	    font-size: 12px;
+	    color: white;
+	}
+	.specialize-container h3{
+    	font-size: 25px;
+	}
+	.specialize-container p{
+	    margin-top: 5px;
+	    margin-bottom: 25px;
+	    font-size: 12px;
+	}
+	.bottom-card{
+		width: 200px;
+		margin: 0 auto;
+		font-size: 14px;
+		color: white;
+	}
+	.specialize-cards{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.posts{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+}
